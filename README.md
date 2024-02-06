@@ -35,13 +35,19 @@ Daniel Miessler's [Fabric](https://github.com/danielmiessler/fabric)
 
 `curl https://ollama.ai/install.sh | sh`
 
+Models https://ollama.ai/library
+
 `ollama serve`
 
 `ollama run dolphin-mixtral:8x7b-v2.7-q5_K_M`
 
 `ollama run codellama:7b-code`
 
+https://github.com/ollama/ollama
+
 ### Ollama Web UI
+
+https://github.com/ollama-webui/ollama-webui
 
 `docker run -d --network=host -v ollama-webui:/app/backend/data -e OLLAMA_API_BASE_URL=http://127.0.0.1:11434/api --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main`
 
